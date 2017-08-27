@@ -1,0 +1,119 @@
+{
+    "android_gradle_plugin_version": "2.3.3",
+    "apk_path": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\build\\outputs\\apk\\app-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\build\\freeline",
+    "build_directory": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "E:\\adt-bundle-windows-x86_64-20140702\\sdk\\build-tools\\26.0.1",
+    "build_tools_version": "26.0.1",
+    "check_sources_md5": [
+        
+    ],
+    "compile_sdk_directory": "E:\\adt-bundle-windows-x86_64-20140702\\sdk\\platforms\\android-26",
+    "compile_sdk_version": "android-26",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "site.yanhui.databasetest",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest",
+    "freeline_gradle_plugin_version": "0.8.7",
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_73",
+    "launcher": "site.yanhui.databasetest.MainActivity",
+    "main_assets_directory": [
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\assets",
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\jniLibs",
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\jni",
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\res",
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\java",
+        "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app"
+        }
+    ],
+    "package": "site.yanhui.databasetest",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\assets",
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\jniLibs",
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\jni",
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\res",
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\debug\\java",
+                "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest\\app\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "E:\\01TheFirstCodeInAndroid\\CodingFirstCode\\Chapter06\\DatabaseTest",
+    "sdk_directory": "E:\\adt-bundle-windows-x86_64-20140702\\sdk",
+    "use_jdk8": true,
+    "use_system_gradle": false
+}
