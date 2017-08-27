@@ -18,6 +18,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private final int CALL_PHONE_REQUEST_CODE = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                                 .create()
                                 .show();
                     } else {
-                        ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE},CALL_PHONE_REQUEST_CODE );
+                        ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE}, CALL_PHONE_REQUEST_CODE);
                     }
                 } else {
                     call();
@@ -80,14 +81,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void call() {
-        try {
-            Intent intent = new Intent(Intent.ACTION_CALL);//打电话
-            //因为是调用的危险权限，所以需要捕获一场
-            //快简介 ctrl+alt +t
-            intent.setData(Uri.parse("tel:10086")); //拨打10086
-            startActivity(intent);
-        } catch (SecurityException e) {// 安全异常
-            e.printStackTrace();
+
+        Intent intent = new Intent(Intent.ACTION_CALL);//打电话
+        //因为是调用的危险权限，所以需要捕获一场
+        //快捷键 ctrl+alt +t
+        intent.setData(Uri.parse("tel:10086")); //拨打10086
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
         }
+        startActivity(intent);
+
     }
 }
