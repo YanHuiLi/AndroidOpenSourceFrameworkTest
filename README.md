@@ -16,7 +16,8 @@
 
 ## Database相关
 
-* LitePal
+* LitePal (三方库实现)
+* DatabaseTest (原生实现)
 
 ## RuntimePermission相关
 
