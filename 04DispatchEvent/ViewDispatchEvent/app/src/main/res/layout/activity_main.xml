@@ -8,10 +8,10 @@
     tools:context="site.yanhui.viewdispatchevent.MainActivity">
 
 
-    <Button
-        android:id="@+id/btn_mine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyButton"/>
+<site.yanhui.viewdispatchevent.view.MyButton
+    android:id="@+id/btn_my_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MyButton"/>
 
 </LinearLayout>
